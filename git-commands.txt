@@ -1,0 +1,16 @@
+1. git init
+	-> used to initialize your repo. It creates a .git folder in the repo.
+2. git add
+	-> used to add the files that has to be tracked by git.
+3. git commit -m "<commit-message>"
+	-> used to commit the added changes with a commit message.
+4. git push -u origin master
+	-> used to push your commits to github
+5. git remote add origin
+	-> used to add origin or url of your github repo to local git.
+6. git config --global user.name "<name>"
+	-> it sets the name you want attached to your commit transactions.
+7. git config --global user.email "<email address>"
+	-> it sets the email you want attached to your commit transactions.
+8. git log
+	-> it lists version history for the current branch.
