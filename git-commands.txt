@@ -14,3 +14,5 @@
 	-> it sets the email you want attached to your commit transactions.
 8. git log
 	-> it lists version history for the current branch.
+9. git status
+	-> it lists all new or modified files to be committed
