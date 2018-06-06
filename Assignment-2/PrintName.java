@@ -1,8 +1,7 @@
-class PrintName {
-
-public static void main(String args[])
+public class PrintName 
 {
-	System.out.println("My Name is Ayush Singla");
-}
+	public static void main(String args[]) {
+		System.out.println("My Name is Ayush Singla");
+	}
 
 }
