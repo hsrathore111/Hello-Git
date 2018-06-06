@@ -6,12 +6,15 @@ public class Divisibility {
 		
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		
-		if (num % 3 == 0) {
+		if(num%3==0 && num%5==0){
+			
+		  System.out.println("Acadview learning");
+		}	
+		else if (num % 3 == 0) {
 		
 			System.out.print("Acadview ");
 		}
-		if( num % 5 == 0) {
+		else if( num % 5 == 0) {
 		
 			System.out.print("Learning");
 		}
